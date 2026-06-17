@@ -1,0 +1,18 @@
+{
+  "name": "packager",
+  "version": "1.0",
+  "description": "把自然语言协议封装成通用 Agent 平台可读取的 SKILL 格式。输入任意协议文本，输出 SKILL.md + meta.json + README.md + LICENSE.md 四文件。内置文风画像 v1.2，所有描述文字有活人感。",
+  "triggers": [
+    "封装",
+    "打包成 SKILL",
+    "Package this protocol",
+    "封装师"
+  ],
+  "dependencies": [],
+  "adaptation": "任何支持长文本输出的 AI",
+  "author": "[待填写]",
+  "homepage": "[待填写]",
+  "license": "MIT",
+  "is_meta": true,
+  "notes": "封装师是元协议（meta-protocol），负责把其他协议封装成标准 SKILL 格式。本身也需要被封装——四文件在同目录。与班门串联使用：先班门审计质量，再封装师打包发布。"
+}
