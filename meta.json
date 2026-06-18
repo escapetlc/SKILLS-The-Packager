@@ -1,18 +1,17 @@
 {
-  "name": "packager",
-  "version": "1.0",
-  "description": "把自然语言协议封装成通用 Agent 平台可读取的 SKILL 格式。输入任意协议文本，输出 SKILL.md + meta.json + README.md + LICENSE.md 四文件。内置文风画像 v1.2，所有描述文字有活人感。",
+  "name": "thePackager",
+  "version": "2.0.0",
+  "description": "把自然语言协议封装成标准 SKILL 格式（SKILL.md + meta.json + README.md + LICENSE.md），适配 Claude Code / WorkBuddy / CNB / OpenClaw / Codex 等 Agent 平台。",
   "triggers": [
     "封装",
     "打包成 SKILL",
-    "Package this protocol",
-    "封装师"
+    "Package this protocol"
   ],
   "dependencies": [],
-  "adaptation": "任何支持长文本输出的 AI",
-  "author": "[待填写]",
-  "homepage": "[待填写]",
+  "adaptation": "任何支持长文本输出的 AI（Claude / GPT / KIMI / DS 等）",
+  "author": "escapetlc",
+  "homepage": "https://github.com/escapetlc/SKILLS-The-Packager",
   "license": "MIT",
   "is_meta": true,
-  "notes": "封装师是元协议（meta-protocol），负责把其他协议封装成标准 SKILL 格式。本身也需要被封装——四文件在同目录。与班门串联使用：先班门审计质量，再封装师打包发布。"
+  "notes": "本协议是元协议（描述「如何封装协议」的方法论），不是具体的任务执行协议。封装时按类型 C（元协议）处理，额外输出 methodology.md。"
 }
